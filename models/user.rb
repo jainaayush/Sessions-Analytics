@@ -5,7 +5,7 @@ class User
 
 	WINDOW_MILLSEC = 600000
 
-	FILE = "../events.json"
+	FILE = "./events.json"
 
 	def read_file
 		json_from_file = File.read(FILE)
